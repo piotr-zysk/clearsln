@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29318.209
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "clearsln", "clearsln\clearsln.pyproj", "{77B92C2F-264F-4CF7-B58B-60EC9AA094AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77B92C2F-264F-4CF7-B58B-60EC9AA094AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77B92C2F-264F-4CF7-B58B-60EC9AA094AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {752F751D-A76D-42B9-A237-36A4353D3C07}
+	EndGlobalSection
+EndGlobal
