@@ -1,24 +1,17 @@
-import os, shutil
-
 root_path = 'c:/temp'
 folders_to_delete = ['bin','obj']
 
+import os, shutil
+
 def scan_delete(path):
+    os.chdir(path)
+    print("scanning: "+path)
     subfolders = os.listdir();
-    for i in subfolders:
-        print(i)
-
-
-print(os.getcwd())
-print(root_path)
-print(folders_to_delete)
-
-os.chdir(root_path)
-
-subfolders = os.listdir()
-print(subfolders)
-
-
-#shutil.rmtree(subfolder)
+    for folder in subfolders:
+        if folder in folders_to_delete:
+            print("deleting:  -> "+folder)
+            shutil.rmtree(folder)
+        else:
+            scan_delete(path+"/"+folder)
 
 scan_delete(root_path)
