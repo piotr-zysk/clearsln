@@ -1,3 +1,5 @@
+#!python
+
 root_path = 'C:/temp'
 folders_to_delete = ['bin','obj']
 
